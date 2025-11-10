@@ -23,7 +23,6 @@ maturinBuildHook() {
         "--target" "@rustcTargetSpec@"
         "--manylinux" "off"
         "--strip"
-        "--release"
         "--out" "$dist"
         "--interpreter" "$interpreter_name"
     )
